@@ -18,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void clique(View view){
+    public void clique(View view) {
         EditText editText = (EditText) findViewById(R.id.editText);
         TextView textView = (TextView) findViewById(R.id.textView2);
         textView.setText(editText.getText());
